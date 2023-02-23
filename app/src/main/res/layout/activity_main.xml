@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context="MainActivity"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="448dp">
+
+        <TextView
+            android:id="@+id/textResult"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right|bottom"
+            android:text=""
+            android:textColor="#00BCD4"
+            android:paddingRight="30px"
+            android:paddingBottom="20px"
+            android:textSize="120px"
+            />
+    </FrameLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_weight="0.5"
+        android:stretchColumns="*">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnXoaAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/eff"
+                android:text="C"
+                android:textColor="#00BCD4"
+                android:textColorLink="#00BCD4"
+                android:visibility="visible"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnPhanTram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/eff"
+                android:text="%"
+                android:textColor="#00BCD4" />
+
+            <Button
+                android:id="@+id/BtnXoa1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/eff"
+                android:text="Xóa"
+                android:textColor="#00BCD4" />
+
+            <Button
+                android:id="@+id/btnChia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/eff"
+                android:text="/"
+                android:textColor="#00BCD4" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn7"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/eff"
+                android:text="7"
+                android:textColor="#00BCD4" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/eff"
+                android:text="8"
+                android:textColor="#00BCD4" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/eff"
+                android:text="9"
+                android:textColor="#00BCD4" />
+
+            <Button
+                android:id="@+id/btnNhan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/eff"
+                android:text="X"
+                android:textColor="#00BCD4" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/eff"
+                android:text="4"
+                android:textColor="#00BCD4" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/eff"
+                android:text="5"
+                android:textColor="#00BCD4" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/eff"
+                android:text="6"
+                android:textColor="#00BCD4" />
+
+            <Button
+                android:id="@+id/btnTru"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/eff"
+                android:text="-"
+                android:textColor="#00BCD4" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/eff"
+                android:text="1"
+                android:textColor="#00BCD4" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/eff"
+                android:text="2"
+                android:textColor="#00BCD4" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/eff"
+                android:text="3"
+                android:textColor="#00BCD4" />
+
+            <Button
+                android:id="@+id/btnCong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/eff"
+                android:text="+"
+                android:textColor="#00BCD4" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/eff"
+                android:text="00"
+                android:textColor="#00BCD4" />
+
+            <Button
+                android:id="@+id/btn0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/eff"
+                android:text="0"
+                android:textColor="#00BCD4" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/eff"
+                android:text=","
+                android:textColor="#00BCD4" />
+
+            <Button
+                android:id="@+id/btnBang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/eff"
+                android:text="="
+                android:textColor="#00BCD4" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>
